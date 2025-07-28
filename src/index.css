@@ -706,10 +706,11 @@ body {
   align-items: center;
 }
 
-.ride-mode-left {
+/*.ride-mode-left {
   /* flex: 1.2;
-   min-width: 320px; */
-}
+   min-width: 320px; 
+} 
+*/
 .ride-yellow {
   color: #FFD600;
 }

@@ -1,12 +1,34 @@
-# React + Vite
+# Kiroo Ride App 🚗
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kiroo Ride App is a ride-booking application built using **React**, **Vite**, and **TailwindCSS**. It's designed to allow users to select pickup and drop-off locations, book a ride, and manage ride types.
 
-Currently, two official plugins are available:
+This project is under active development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React
+- ⚡ Vite
+- 🎨 TailwindCSS
+- 🧹 ESLint + Prettier
+- ⛓️ GitHub for version control
+
+---
+
+## 🔧 Features (In Progress)
+
+- ✅ Pickup & drop-off location fields
+- ✅ Ride type selection (Personal Ride, Corporate, etc.)
+- ✅ Clean, mobile-first responsive UI
+- 🕐 Ride tracking and booking history (coming soon)
+
+---
+
+## 📦 Setup Instructions
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kingsley903/kiroo-ride-app.git
+cd kiroo-ride-app
