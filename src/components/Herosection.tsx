@@ -1,11 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const images = [
-  "/kiroo-ride-app/assets/ride-bg1.png",
-  "/kiroo-ride-app/assets/ride-bg2.png",
-  "/kiroo-ride-app/assets/ride-bg3.png",
-  "/kiroo-ride-app/assets/ride-bg3.png",
+  `${import.meta.env.BASE_URL}assets/ride-bg1.png`,
+  `${import.meta.env.BASE_URL}assets/ride-bg2.png`,
+  `${import.meta.env.BASE_URL}assets/ride-bg3.png`,
+  `${import.meta.env.BASE_URL}assets/ride-bg3.png`,
 ];
+
 
 const Herosection: React.FC = () => {
   const [current, setCurrent] = useState(0);
@@ -23,14 +24,14 @@ const Herosection: React.FC = () => {
   return (
     <section className="hero-section">
       <div className="hero-bg">
-        {images.map((img, idx) => (
-          <img
-            key={img}
-            src={img}
-            alt="slide"
-            className={`hero-img${idx === current ? " active" : ""}`}
-          />
-        ))}
+       {images.map((img, idx) => (
+    <img
+      key={idx}
+      src={img}
+      alt={`slide ${idx + 1}`}
+      className={`hero-img${idx === current ? " active" : ""}`}
+    />
+  ))}
         <div className="hero-overlay">
           <div className="hero-content">
             <h1>
