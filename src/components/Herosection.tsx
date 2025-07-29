@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const images = [
-  "/assets/ride-bg1.png",
-  "/assets/ride-bg2.png",
-  "/assets/ride-bg3.png",
-  "/assets/ride-bg3.png",
+  "/kiroo-ride-app/assets/ride-bg1.png",
+  "/kiroo-ride-app/assets/ride-bg2.png",
+  "/kiroo-ride-app/assets/ride-bg3.png",
+  "/kiroo-ride-app/assets/ride-bg3.png",
 ];
 
 const Herosection: React.FC = () => {

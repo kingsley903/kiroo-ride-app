@@ -16,7 +16,7 @@
           <a href="#" className="download-btn">Download App</a>
         </div>
         <div className="deliveries-right">
-          <img src="/assets/deliveries-illustration.png" alt="Deliveries Illustration" className="deliveries-img" />
+          <img src="/kiroo-ride-app/assets/deliveries-illustration.png" alt="Deliveries Illustration" className="deliveries-img" />
         </div>
       </div>
     </section>

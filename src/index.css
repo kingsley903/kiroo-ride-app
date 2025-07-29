@@ -66,7 +66,7 @@
 }
 
 .navbar-link:hover {
-  background-image: url('./assets/nav.png');
+  background-image: url('/kiroo-ride-app/assets/nav.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@
 }
 
 .navbar-link.active {
-  background-image: url('./assets/nav.png');
+  background-image: url('/kiroo-ride-app/assets/nav.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -577,7 +577,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    background-image: url(/assets/phone.png);
+    background-image: url(/kiroo-ride-app/assets/phone.png);
     height: 820px;
     background-position: top;
     background-repeat: no-repeat;
@@ -770,7 +770,7 @@ body {
   background-color: #ffcc00;
   background-repeat: no-repeat;
   background-position: center;
-  mask-image: url('/assets/ride-mode-illustration.png');
+  mask-image: url('/kiroo-ride-app/assets/ride-mode-illustration.png');
   mask-repeat: no-repeat;
   mask-size: cover;
   mask-position: center;
@@ -784,7 +784,7 @@ body {
   align-items: flex-start;
   justify-content: flex-end;
   background-color: #000;
-  mask-image: url('/assets/ride-mode-illustration.png');
+  mask-image: url('/kiroo-ride-app/assets/ride-mode-illustration.png');
   mask-repeat: no-repeat;
   mask-size: cover;
   mask-position: center;

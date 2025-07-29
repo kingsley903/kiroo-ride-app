@@ -5,7 +5,7 @@ const Aboutus: React.FC = () => (
   <div className="aboutus-page">
     {/* Hero Section */}
     <section className="aboutus-hero">
-      <img src="/assets/about-bg-pic.png" alt="About Kiroo Ride" className="aboutus-hero-img" />
+      <img src="/kiroo-ride-app/assets/about-bg-pic.png" alt="About Kiroo Ride" className="aboutus-hero-img" />
       <div className="aboutus-hero-overlay">
         <h1>ABOUT US</h1>
       </div>
@@ -40,14 +40,14 @@ const Aboutus: React.FC = () => (
         <div className="aboutus-vision-text">
           <h3>OUR VISION</h3>
         </div>
-        <img src="/assets/kiroo-vision.jpg" alt="Kiroo Vision" className="aboutus-vision-img" />
+        <img src="/kiroo-ride-app/assets/kiroo-vision.jpg" alt="Kiroo Vision" className="aboutus-vision-img" />
       </div>
     </section>
 
     {/* Mission Section */}
     <section className="aboutus-mission">
       <div className="aboutus-mission-content">
-        <img src="/assets/kiroo-mission.jpg" alt="Kiroo Mission" className="aboutus-mission-img" />
+        <img src="/kiroo-ride-app/assets/kiroo-mission.jpg" alt="Kiroo Mission" className="aboutus-mission-img" />
         <div className="aboutus-mission-text">
           <h3>OUR MISSION</h3>
           <p>
@@ -62,17 +62,17 @@ const Aboutus: React.FC = () => (
       <h3>ONE APP, MANY SERVICES</h3>
       <div className="aboutus-services-cards">
         <div className="aboutus-service-card">
-          <img src="/assets/service-ride.jpg" alt="Ride Service" />
+          <img src="/kiroo-ride-app/assets/service-ride.jpg" alt="Ride Service" />
           <h4>Ride</h4>
           <p>Book a ride in seconds—fast, safe, and affordable.</p>
         </div>
         <div className="aboutus-service-card">
-          <img src="/assets/service-delivery.jpg" alt="Delivery Service" />
+          <img src="/kiroo-ride-app/assets/service-delivery.jpg" alt="Delivery Service" />
           <h4>Delivery</h4>
           <p>Send and receive packages with ease, anywhere in your city.</p>
         </div>
         <div className="aboutus-service-card">
-          <img src="/assets/service-market.jpg" alt="Market Service" />
+          <img src="/kiroo-ride-app/assets/service-market.jpg" alt="Market Service" />
           <h4>Market</h4>
           <p>Shop from local stores and get your orders delivered to your door.</p>
         </div>

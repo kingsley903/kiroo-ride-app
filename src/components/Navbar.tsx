@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import Logo from '../assets/ride-logo.png'
-
+//import Logo from '/kiroo-ride-app/assets/ride-logo.png'
+const Logo = '/kiroo-ride-app/assets/ride-logo.png'
 // Define your navigation links
 const menuItems = [
   { name: 'Home', path: '/' },

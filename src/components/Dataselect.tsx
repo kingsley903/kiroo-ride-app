@@ -8,7 +8,7 @@ const Dataselect: React.FC = () => (
     {/* Offline Ride Section */}
     <section className="offline-ride-section">
       <div className="offline-ride-content">
-        <img src="/assets/offline-ussd.png" alt="Offline USSD" className="offline-ussd-img" />
+        <img src="/kiroo-ride-app/assets/offline-ussd.png" alt="Offline USSD" className="offline-ussd-img" />
         <div className="offline-ride-text">
           <h2>
             <span className="offline-yellow">Offline</span> ride?
@@ -43,7 +43,7 @@ const Dataselect: React.FC = () => (
             </div>
           </div>
           <div className="ride-mode-right">
-            {/*<img src="/assets/ride-mode-illustration.png" alt="Ride Mode Illustration" className="ride-mode-img" />*/}
+            {/*<img src="/kiroo-ride-app/assets/ride-mode-illustration.png" alt="Ride Mode Illustration" className="ride-mode-img" />*/}
           </div>
         </div>
         <div className="ride-mode-features">
