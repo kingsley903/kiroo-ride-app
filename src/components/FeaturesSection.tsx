@@ -23,18 +23,18 @@ const FeaturesSection: React.FC = () => (
       </div>
     </div>
     <div className="features-grid">
-      <div className="feature-card">
+      <div className="feature-card big-feature-card">
         <h3>Easy Booking & Real-Time Tracking</h3>
         <p>
           Book your ride in seconds. From pickup to drop-off, track your
           driver’s location in real time no surprises, just smooth movement.
         </p>
         <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/phone.png')" }}
-          className="feature-img"
+          style={{ backgroundImage: "url('/kiroo-ride-app/assets/big-second.png')" }}
+          className="feature-img big-feature-img"
         ></div>
       </div>
-      <div className="feature-card">
+      <div className="feature-card big-feature-card">
         <h3>100% Safety</h3>
         <p>
           Smart safety tools like selfie checks, SOS buttons, and live trip
@@ -42,11 +42,11 @@ const FeaturesSection: React.FC = () => (
           police alert services with kiroo smart security personnel if needed.
         </p>
         <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/phone.png')" }}
-          className="feature-img"
+          style={{ backgroundImage: "url('/kiroo-ride-app/assets/big-second.png')" }}
+          className="feature-img big-feature-img"
         ></div>
       </div>
-      <div className="feature-card col-lg-4">
+      <div className="feature-card small-feature-card">
         <h3>Multiple Ride Options:</h3>
         <p>
           From bikes to SUVs, Keke to sedans. Kiroo fits every budget, every
@@ -54,11 +54,15 @@ const FeaturesSection: React.FC = () => (
           market, there’s a ride just for you.
         </p>
         <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/about-bg-pic.png')" }}
-          className="feature-img"
-        ></div>
+          style={{ backgroundImage: "url('/kiroo-ride-app/assets/small-first.png')" }}
+          className="feature-img small-feature-img"
+        >
+
+<img src="/kiroo-ride-app/assets/small-first-in.png" alt="Small Feature" />
+
+        </div>
       </div>
-      <div className="feature-card col-lg-4">
+      <div className="feature-card small-feature-card">
         <h3>Cashless Payments</h3>
         <p>
           No change? No problem. Pay instantly with card, wallet, or
@@ -66,15 +70,15 @@ const FeaturesSection: React.FC = () => (
           your pocket!
         </p>
        <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/about-bg-pic.png')" }}
-          className="feature-img"
+          style={{ backgroundImage: "url('/kiroo-ride-app/assets/small-second.jpg')" }}
+          className="feature-img small-feature-img"
         ></div>
       </div>
       <div className="feature-card feature-card-cta col-lg-4">
         <div>
           <h3>Explore Other Features of Our Products.</h3>
           <a href="#" className="feature-download-btn">
-            Download Now!
+            <span style={{ color: "#fff" }}>Download</span> Now!
           </a>
         </div>
       </div>

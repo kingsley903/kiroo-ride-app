@@ -1,16 +1,16 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import React from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
-import './index.css'
+import "./index.css";
 
 // Layout Components
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 // Pages
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
-import ContactPage from './pages/ContactPage'
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
 
       <Footer />
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

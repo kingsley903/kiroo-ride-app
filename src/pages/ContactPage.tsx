@@ -6,7 +6,7 @@ import DataSection from '../components/Dataselect'
 const ContactPage = () => {
   return (
     <>
-      
+      <Herosection />
       <FeaturesSection />
       <DataSection />
     </>

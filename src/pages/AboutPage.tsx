@@ -1,17 +1,16 @@
 // pages/HomePage.tsx
+import Herosection from '../components/Herosection'
+import FeaturesSection from '../components/FeaturesSection'
+import DataSection from '../components/Dataselect'
 
-import Domore from '../components/Domore'
-import Delivary from '../components/Delivary'
-import Aboutus from '../components/Aboutus'
-
-const AboutPage = () => {
+const ContactPage = () => {
   return (
     <>
-    <Aboutus />
-    <Delivary />
-      <Domore />
+      <Herosection />
+      <FeaturesSection />
+      <DataSection />
     </>
   )
 }
 
-export default AboutPage
+export default ContactPage
