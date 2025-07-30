@@ -1150,3 +1150,206 @@ body {
     height: auto;
   }
 }
+
+/* USSD Section */
+.ussd-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.ussd-left {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ussd-img {
+  width: 260px;
+  max-width: 90vw;
+  object-fit: contain;
+}
+.ussd-right {
+  flex: 1.2;
+  min-width: 320px;
+  max-width: 540px;
+}
+.ussd-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #181818;
+  margin-bottom: 0.7rem;
+  line-height: 1.2;
+}
+.ussd-yellow {
+  color: #FFD600;
+}
+.ussd-sub {
+  font-size: 1.1rem;
+  color: #181818;
+  margin-bottom: 0.3rem;
+}
+.ussd-desc {
+  color: #222;
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+}
+.ussd-dial {
+  margin-top: 1.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #181818;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ussd-dial-code {
+  color: #FFD600;
+  font-size: 2.3rem;
+  margin-left: 0.5rem;
+  letter-spacing: 2px;
+  background: #181818;
+  border-radius: 0.5rem;
+  padding: 0.1rem 1.1rem;
+}
+
+/* Do More With Kiroo Section */
+.do-more-section {
+  background: #FFD600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 100vw;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.do-more-left {
+  flex: 1.2;
+  min-width: 320px;
+  max-width: 540px;
+}
+.do-more-title {
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: #181818;
+  margin-bottom: 0.7rem;
+}
+.do-more-title span {
+  color: #181818;
+  background: #FFD600;
+}
+.do-more-sub {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 1.1rem;
+}
+.do-more-btn {
+  display: inline-block;
+  background: #181818;
+  color: #FFD600;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 2.2rem;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 0.7rem;
+  transition: background 0.2s, color 0.2s;
+}
+.do-more-btn:hover {
+  background: #FFD600;
+  color: #181818;
+  border: 1px solid #181818;
+}
+.do-more-right {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.do-more-img {
+  width: 320px;
+  max-width: 90vw;
+  border-radius: 1.2rem;
+  background: #fff;
+  object-fit: cover;
+}
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+  .enjoy-life-section,
+  .getting-started-section,
+  .ussd-section,
+  .do-more-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0.5rem;
+  }
+  .enjoy-life-right,
+  .getting-started-right,
+  .ussd-left,
+  .do-more-right {
+    justify-content: center;
+  }
+  .enjoy-life-img,
+  .getting-started-img,
+  .ussd-img,
+  .do-more-img {
+    width: 90vw;
+    max-width: 340px;
+  }
+}
+@media (max-width: 700px) {
+  .enjoy-life-title,
+  .getting-started-title,
+  .ussd-title,
+  .do-more-title {
+    font-size: 1.4rem;
+  }
+  .getting-started-steps {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .step-card {
+    padding: 1rem 0.7rem;
+    min-height: 110px;
+  }
+  .enjoy-life-section,
+  .do-more-section {
+    padding: 1.2rem 0.2rem;
+  }
+  .enjoy-life-left,
+  .do-more-left {
+    max-width: 100vw;
+  }
+}
+@media (max-width: 500px) {
+  .enjoy-life-section,
+  .getting-started-section,
+  .ussd-section,
+  .do-more-section {
+    padding: 1rem 0.1rem;
+  }
+  .enjoy-life-title,
+  .getting-started-title,
+  .ussd-title,
+  .do-more-title {
+    font-size: 1.1rem;
+  }
+  .enjoy-life-img,
+  .getting-started-img,
+  .ussd-img,
+  .do-more-img {
+    width: 98vw;
+    max-width: 98vw;
+    border-radius: 1.2rem;
+  }
+}

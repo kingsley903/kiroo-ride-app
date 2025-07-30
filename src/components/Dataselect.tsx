@@ -64,7 +64,7 @@ const Dataselect: React.FC = () => (
       <h1 className="getting-started-title">Getting Started with Kiroo App</h1>
       <p className="getting-started-desc">
         Born from the hustle and rhythm of African cities, to the seamlessness
-        of western cities,Kiroo connects people, <br />packages, and possibilities
+        of western cities, Kiroo connects people, packages, and possibilities
         through safe, smart, and flexible mobility.
       </p>
       <div className="getting-started-left">
@@ -114,10 +114,60 @@ const Dataselect: React.FC = () => (
       </div>
       <div className="getting-started-right">
         <img
-          src="/kiroo-ride-app/assets/data-select-phone.png"
+          src="/kiroo-ride-app/assets/map-phone.png"
           alt="Kiroo App Map"
           className="getting-started-img"
         />
+      </div>
+    </section>
+    {/* Do More With Kiroo Section */}
+    <section className="do-more-section section-padding">
+      <div className="do-more-left">
+        <h1 className="do-more-title">
+          DO More With <span>KIROO!</span>
+        </h1>
+        <p className="do-more-sub">Share a ride</p>
+        <a href="#" className="do-more-btn">
+          Download App
+        </a>
+      </div>
+      <div className="do-more-right">
+        <img
+          src="/kiroo-ride-app/assets/do-more.png"
+          alt="Do More With Kiroo"
+          className="do-more-img"
+        />
+      </div>
+    </section>
+
+    {/* USSD Section */}
+    <section className="ussd-section section-padding">
+      <div className="ussd-left">
+        <img
+          src="/kiroo-ride-app/assets/ussd-code.png"
+          alt="USSD Booking"
+          className="ussd-img"
+        />
+      </div>
+      <div className="ussd-right">
+        <h2 className="ussd-title">
+          <span className="ussd-yellow">No</span> Smart phone?
+          <br />
+          <span className="ussd-yellow">No</span> Internet?
+          <br />
+          <span className="ussd-yellow">No</span> Problem
+        </h2>
+        <p className="ussd-sub">
+          Book with our <b>USSD CODE!</b>
+        </p>
+        <p className="ussd-desc">
+          Get started with USSD or SMS—perfect for areas with low data or
+          unreliable network.
+        </p>
+        <div className="ussd-dial">
+          <span>Dial</span>
+          <span className="ussd-dial-code">*801#</span>
+        </div>
       </div>
     </section>
   </div>
