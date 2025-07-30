@@ -3,10 +3,11 @@ import React from "react";
 const Dataselect: React.FC = () => (
   <div className="dataselect-page">
     {/* Enjoy Life with Kiroo Section */}
-    <section className="enjoy-life-section">
+    <section className="enjoy-life-section section-padding">
       <div className="enjoy-life-left">
         <h1 className="enjoy-life-title">
-          Enjoy Life with <span>KIROO!</span>
+          Enjoy Life with <br />
+          <span>KIROO!</span>
         </h1>
         <h3 className="enjoy-life-sub">Every mother deserves a safe journey</h3>
         <p className="enjoy-life-desc">
@@ -51,7 +52,7 @@ const Dataselect: React.FC = () => (
       </div>
       <div className="enjoy-life-right">
         <img
-          src="/assets/enjoy-life-mom.png"
+          src="/kiroo-ride-app/assets/belle.png"
           alt="Enjoy Life with Kiroo"
           className="enjoy-life-img"
         />
@@ -59,16 +60,14 @@ const Dataselect: React.FC = () => (
     </section>
 
     {/* Getting Started Section */}
-    <section className="getting-started-section">
+    <section className="getting-started-section section-padding">
+      <h1 className="getting-started-title">Getting Started with Kiroo App</h1>
+      <p className="getting-started-desc">
+        Born from the hustle and rhythm of African cities, to the seamlessness
+        of western cities,Kiroo connects people, <br />packages, and possibilities
+        through safe, smart, and flexible mobility.
+      </p>
       <div className="getting-started-left">
-        <h1 className="getting-started-title">
-          Getting Started with Kiroo App
-        </h1>
-        <p className="getting-started-desc">
-          Born from the hustle and rhythm of African cities, to the seamlessness
-          of western cities, Kiroo connects people, packages, and possibilities
-          through safe, smart, and flexible mobility.
-        </p>
         <div className="getting-started-steps">
           <div className="step-card step-card-dark">
             <div className="step-number">1</div>
@@ -115,7 +114,7 @@ const Dataselect: React.FC = () => (
       </div>
       <div className="getting-started-right">
         <img
-          src="/assets/getting-started-phone.png"
+          src="/kiroo-ride-app/assets/data-select-phone.png"
           alt="Kiroo App Map"
           className="getting-started-img"
         />

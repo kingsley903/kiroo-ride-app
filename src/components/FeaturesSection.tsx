@@ -1,7 +1,7 @@
 import React from "react";
 
 const FeaturesSection: React.FC = () => (
-  <section className="features-section">
+  <section className="features-section section-padding">
     <div className="features-header-row">
       <div>
         <h1 className="features-title">
