@@ -170,6 +170,96 @@ const Dataselect: React.FC = () => (
         </div>
       </div>
     </section>
+
+    {/* DO MORE WITH KIROO (DRIVER) SECTION */}
+    <section className="do-more-driver-section section-padding">
+      <div className="do-more-driver-overlay">
+        <h1>
+          <span className="do-more-yellow">DO More With</span>
+          <br />
+          <span className="do-more-white">KIROO!</span>
+        </h1>
+        <p className="do-more-driver-desc">
+          Make the most of your time on the road on the platform with the
+          largest network of active riders.
+        </p>
+        <a href="#" className="do-more-driver-btn">
+          Download App
+        </a>
+      </div>
+      <img
+        src="/kiroo-ride-app/assets/do-more-driver.png"
+        alt="Do More With Kiroo Driver"
+        className="do-more-driver-img"
+      />
+    </section>
+
+    {/* INSURANCE SECTION */}
+    <section className="insurance-section section-padding">
+      <div className="insurance-left">
+        <h1>
+          <span className="insurance-yellow">Insurance??</span>
+          <br />
+          Why not!
+        </h1>
+        <p className="insurance-desc">
+          At Kiroo, we believe drivers deserve peace of mind every trip, every
+          hustle. That’s why we’ve partnered with top insurers to bring you
+          affordable, stress-free insurance, made just for you.
+        </p>
+        <div className="insurance-list">
+          <b>Health Cover.</b>
+          <br />
+          hospital bills? We’ve got your back.
+          <br />
+          <br />
+          <b>Vehicle Insurance.</b>
+          <br />
+          stay protected from accidents, theft, or damage.
+          <br />
+          <br />
+          <b>Emergency Support.</b>
+          <br />
+          quick help when the unexpected happens.
+        </div>
+        <a href="#" className="insurance-btn">
+          Download App
+        </a>
+        <h2 className="insurance-footer">
+          Drive Safe. Stay Covered. Enjoy Kiroo.
+        </h2>
+      </div>
+      <div className="insurance-right">
+        <img
+          src="/kiroo-ride-app/assets/insurance-car.jpg"
+          alt="Insurance"
+          className="insurance-img"
+        />
+      </div>
+    </section>
+    <hr />
+    {/* MAKE DELIVERIES SECTION */}
+    <section className="make-deliveries-section section-padding">
+      <div className="make-deliveries-left">
+        <img
+          src="/kiroo-ride-app/assets/deliveries-illustration.png"
+          alt="Make Deliveries"
+          className="make-deliveries-img"
+        />
+      </div>
+      <div className="make-deliveries-right">
+        <h1>
+          <span className="make-yellow">Make</span> Deliveries
+        </h1>
+        <p className="make-deliveries-desc">
+          Your business moves fast. So should your deliveries. From market
+          stalls to Instagram stores <b>Kiroo</b> handles the drop.
+        </p>
+        <a href="#" className="make-deliveries-btn">
+          Download App
+        </a>
+      </div>
+    </section>
   </div>
 );
 

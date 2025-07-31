@@ -1353,3 +1353,237 @@ body {
     border-radius: 1.2rem;
   }
 }
+
+/* DO MORE WITH KIROO (DRIVER) SECTION */
+.do-more-driver-section {
+  position: relative;
+  width: 100vw;
+  min-height: 340px;
+  background: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.do-more-driver-img {
+  width: 100vw;
+  height: 340px;
+  object-fit: cover;
+  object-position: center right;
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 1;
+}
+.do-more-driver-overlay {
+  position: relative;
+  z-index: 2;
+  padding: 3rem 0 3rem 6vw;
+  max-width: 500px;
+}
+.do-more-yellow {
+  color: #FFD600;
+  font-weight: 700;
+}
+.do-more-white {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.do-more-driver-desc {
+  color: #fff;
+  font-size: 1.05rem;
+  margin: 1.2rem 0 1.2rem 0;
+  max-width: 350px;
+}
+.do-more-driver-btn {
+  background: #FFD600;
+  color: #181818;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 0.7rem;
+  display: inline-block;
+  transition: background 0.2s, color 0.2s;
+}
+.do-more-driver-btn:hover {
+  background: #fff200;
+  color: #111;
+}
+
+/* INSURANCE SECTION */
+.insurance-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  background: #fff;
+}
+.insurance-left {
+  flex: 1.2;
+  min-width: 320px;
+  max-width: 540px;
+}
+.insurance-yellow {
+  color: #FFD600;
+  font-weight: 800;
+}
+.insurance-left h1 {
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: #181818;
+  margin-bottom: 0.7rem;
+}
+.insurance-desc {
+  color: #181818;
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+}
+.insurance-list {
+  color: #181818;
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+}
+.insurance-btn {
+  display: inline-block;
+  background: #FFD600;
+  color: #181818;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 0.7rem;
+  margin-bottom: 1.2rem;
+  transition: background 0.2s, color 0.2s;
+}
+.insurance-btn:hover {
+  background: #fff200;
+  color: #111;
+}
+.insurance-footer {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 1.5rem;
+}
+.insurance-right {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.insurance-img {
+  width: 320px;
+  max-width: 90vw;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+/* MAKE DELIVERIES SECTION */
+.make-deliveries-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  background: #fff;
+}
+.make-deliveries-left {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.make-deliveries-img {
+  width: 320px;
+  max-width: 90vw;
+  border-radius: 1.2rem;
+  object-fit: cover;
+  background: #fff;
+}
+.make-deliveries-right {
+  flex: 1.2;
+  min-width: 320px;
+  max-width: 540px;
+}
+.make-yellow {
+  color: #FFD600;
+  font-weight: 800;
+}
+.make-deliveries-right h1 {
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: #181818;
+  margin-bottom: 0.7rem;
+}
+.make-deliveries-desc {
+  color: #181818;
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+}
+.make-deliveries-btn {
+  display: inline-block;
+  background: #FFD600;
+  color: #181818;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 0.7rem;
+  transition: background 0.2s, color 0.2s;
+}
+.make-deliveries-btn:hover {
+  background: #fff200;
+  color: #111;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .do-more-driver-section {
+    min-height: 200px;
+  }
+  .do-more-driver-overlay {
+    padding: 2rem 0 2rem 4vw;
+    max-width: 90vw;
+  }
+  .insurance-section,
+  .make-deliveries-section {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .insurance-img,
+  .make-deliveries-img {
+    width: 90vw;
+    max-width: 340px;
+  }
+}
+@media (max-width: 600px) {
+  .do-more-driver-section {
+    min-height: 120px;
+  }
+  .do-more-driver-overlay {
+    padding: 1.2rem 0 1.2rem 2vw;
+  }
+  .insurance-left h1,
+  .make-deliveries-right h1 {
+    font-size: 1.2rem;
+  }
+  .insurance-footer {
+    font-size: 1rem;
+  }
+}
