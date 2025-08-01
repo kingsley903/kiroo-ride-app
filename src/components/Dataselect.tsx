@@ -124,19 +124,19 @@ const Dataselect: React.FC = () => (
     <section className="do-more-section section-padding">
       <div className="do-more-left">
         <h1 className="do-more-title">
-          DO More With <span>KIROO!</span>
+          DO More With <br />
+          <span>KIROO!</span>
         </h1>
         <p className="do-more-sub">Share a ride</p>
-        <a href="#" className="do-more-btn">
+        <a
+          href="#"
+          className="enjoy-life-btn"
+>
           Download App
         </a>
       </div>
       <div className="do-more-right">
-        <img
-          src="/kiroo-ride-app/assets/do-more.png"
-          alt="Do More With Kiroo"
-          className="do-more-img"
-        />
+        <div className="do-more-img"></div>
       </div>
     </section>
 
@@ -164,15 +164,23 @@ const Dataselect: React.FC = () => (
           Get started with USSD or SMS—perfect for areas with low data or
           unreliable network.
         </p>
-        <div className="ussd-dial">
-          <span>Dial</span>
-          <span className="ussd-dial-code">*801#</span>
+        <div>
+          <h1 className="ussd-dial">
+            Dial
+            <br />
+            <span className="ussd-dial-code">*801#</span>
+          </h1>
         </div>
       </div>
     </section>
 
     {/* DO MORE WITH KIROO (DRIVER) SECTION */}
-    <section className="do-more-driver-section section-padding">
+    <section
+      className="do-more-driver-section section-padding"
+      style={{
+        backgroundImage: 'url("/kiroo-ride-app/assets/do-more-driver.png")',
+      }}
+    >
       <div className="do-more-driver-overlay">
         <h1>
           <span className="do-more-yellow">DO More With</span>
@@ -183,15 +191,15 @@ const Dataselect: React.FC = () => (
           Make the most of your time on the road on the platform with the
           largest network of active riders.
         </p>
-        <a href="#" className="do-more-driver-btn">
+        <a href="#" className="do-more-btn">
           Download App
         </a>
       </div>
-      <img
+      {/* <img
         src="/kiroo-ride-app/assets/do-more-driver.png"
         alt="Do More With Kiroo Driver"
         className="do-more-driver-img"
-      />
+      />*/}
     </section>
 
     {/* INSURANCE SECTION */}
@@ -222,7 +230,7 @@ const Dataselect: React.FC = () => (
           <br />
           quick help when the unexpected happens.
         </div>
-        <a href="#" className="insurance-btn">
+        <a href="#" className="do-more-btn">
           Download App
         </a>
         <h2 className="insurance-footer">
@@ -255,7 +263,7 @@ const Dataselect: React.FC = () => (
           Your business moves fast. So should your deliveries. From market
           stalls to Instagram stores <b>Kiroo</b> handles the drop.
         </p>
-        <a href="#" className="make-deliveries-btn">
+        <a href="#" className="do-more-btn">
           Download App
         </a>
       </div>

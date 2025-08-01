@@ -77,7 +77,7 @@ const FeaturesSection: React.FC = () => (
       <div className="feature-card feature-card-cta col-lg-4">
         <div>
           <h3>Explore Other Features of Our Products.</h3>
-          <a href="#" className="feature-download-btn">
+          <a href="#" className="enjoy-life-btn">
             <span style={{ color: "#fff" }}>Download</span> Now!
           </a>
         </div>

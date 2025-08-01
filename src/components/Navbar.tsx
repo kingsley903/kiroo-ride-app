@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
 
         {/* Signup Button */}
         <div className="navbar-search">
-          <Link to="/signup" className="navbar-signup-btn">Signup</Link>
+          <Link to="/signup" className="navbar-signup-btn">Download App</Link>
         </div>
 
         {/* Hamburger Menu */}
