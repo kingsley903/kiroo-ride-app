@@ -73,7 +73,7 @@ const Dataselect: React.FC = () => (
             <div className="step-number">1</div>
             <div>
               <h3>App Download</h3>
-              <p>
+              <p style={{ color: "var(--light)" }}>
                 Start your Journey by Downloading the <b>Kiroo Ride App</b>,
                 available for free on both android and ios platforms
               </p>
@@ -249,11 +249,11 @@ const Dataselect: React.FC = () => (
     {/* MAKE DELIVERIES SECTION */}
     <section className="make-deliveries-section section-padding">
       <div className="make-deliveries-left">
-        <img
+       {/* <img
           src="/kiroo-ride-app/assets/deliveries-illustration.png"
           alt="Make Deliveries"
           className="make-deliveries-img"
-        />
+        />*/}
       </div>
       <div className="make-deliveries-right">
         <h1>

@@ -10,6 +10,8 @@
   --black-color: #202020;
   --white-color: #fff;
   --text-color: #333;
+  --dark: #000;
+  --light: #f0f0f0;
 }
 
 h1,
@@ -129,9 +131,10 @@ body {
 }
 
 .navbar-signup-btn {
-  color: var(--white-color);
+  color: var(--dark);
   background-color: var(--yellow-color);
-  padding: 8px 10px;
+  font-weight: 600;
+  padding: 5px 10px;
   text-decoration: none;
   border-radius: 10px;
 }
@@ -363,10 +366,10 @@ body {
 }
 
 .black-dot {
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
   background-color: var(--black-color);
-  margin-left: 4px;
+  margin-left: 10px;
 }
 
 .pickup-input {
@@ -408,7 +411,6 @@ body {
   border: none;
   font-size: 1rem;
   background-color: var(--white-color);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
@@ -1398,6 +1400,7 @@ body {
 }
 
 /* MAKE DELIVERIES SECTION */
+
 .make-deliveries-section {
   display: flex;
   align-items: center;
@@ -1406,7 +1409,12 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
-  background: var(--white-color);
+  background-image: url(/kiroo-ride-app/assets/deliveries-illustration.png);
+  /* background: var(--white-color); */
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 .make-deliveries-left {
   flex: 1;
@@ -1438,13 +1446,24 @@ body {
   margin-bottom: 0.7rem;
 }
 .make-deliveries-desc {
-  color: var(--text-color);
+  color: var(--dark);
   font-size: 1.05rem;
   margin-bottom: 1.2rem;
 }
 
 /* Responsive Styles */
 @media (max-width: 900px) {
+.make-deliveries-section {
+  height: 73vh;
+}
+
+.make-deliveries-left{
+  display: none;
+}
+.make-deliveries-right{
+  flex: 0;
+}
+
   .do-more-driver-section {
     min-height: 200px;
   }
@@ -1452,11 +1471,7 @@ body {
     padding: 2rem 0 2rem 4vw;
     max-width: 90vw;
   }
-  .insurance-section,
-  .make-deliveries-section {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
+ 
   .insurance-img,
   .make-deliveries-img {
     width: 90vw;
@@ -1470,11 +1485,130 @@ body {
   .do-more-driver-overlay {
     padding: 1.2rem 0 1.2rem 2vw;
   }
-  .insurance-left h1,
-  .make-deliveries-right h1 {
-    font-size: 1.2rem;
-  }
+
   .insurance-footer {
     font-size: 1rem;
   }
+}
+/* --------------_________---____-faq---____-___-__-_-___-*/
+.faq-section {
+  background: #181818;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-container {
+  max-width: 640px;
+  margin: 0;
+  z-index: 2;
+}
+
+.faq-header {
+  margin-bottom: 2.5rem;
+}
+
+.faq-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: -1px;
+}
+
+.faq-subtitle {
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq-item {
+  background: #ffc800;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s;
+}
+
+.faq-item.open {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 1.1rem 1.5rem;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text-color);
+  transition: background 0.2s;
+  gap: 1.2rem;
+}
+
+.faq-number {
+  background: #a39151e0;
+  color: var(--white-color);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-right: 0.7rem;
+  flex-shrink: 0;
+}
+
+.faq-toggle-icon {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.faq-answer {
+  background: #fffbe6;
+  color: #222;
+  font-size: 1rem;
+  padding: 0 1.5rem;
+  border-top: 1px solid #ffe066;
+  transition: max-height 0.4s cubic-bezier(.4,0,.2,1), padding 0.3s;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.faq-item.open .faq-answer {
+  padding: 1rem 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .faq-container {
+    max-width: 100%;
+  }
+  .faq-section {
+    padding: 2rem 0.5rem;
+    justify-content: center;
+  }
+  .faq-title {
+    font-size: 2rem;
+  }
+  .faq-question {
+
+    padding: 1rem 1rem;
+  } 
 }

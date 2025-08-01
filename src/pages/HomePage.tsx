@@ -2,6 +2,7 @@
 import Herosection from '../components/Herosection'
 import FeaturesSection from '../components/FeaturesSection'
 import DataSection from '../components/Dataselect'
+import Faq from '../components/Faq'
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Herosection />
       <FeaturesSection />
       <DataSection />
+      <Faq />
     </>
   )
 }
