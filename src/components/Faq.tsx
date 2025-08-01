@@ -58,46 +58,46 @@ const Faq: React.FC = () => {
                 aria-expanded={openIndex === idx}
                 aria-controls={`faq-answer-${idx}`}
               >
-                  <span className="faq-number">{idx + 1}</span>
-   
+                <span className="faq-number">{idx + 1}</span>
+
                 <span className="faq-question-text">{faq.question}</span>
                 <div>
-                                    <span className="faq-toggle-icon">
-                  {openIndex === idx ? (
-                    <svg width="18" height="18" viewBox="0 0 18 18">
-                      <line
-                        x1="4"
-                        y1="9"
-                        x2="14"
-                        y2="9"
-                        stroke="#222"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  ) : (
-                    <svg width="18" height="18" viewBox="0 0 18 18">
-                      <line
-                        x1="4"
-                        y1="9"
-                        x2="14"
-                        y2="9"
-                        stroke="#222"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                      />
-                      <line
-                        x1="9"
-                        y1="4"
-                        x2="9"
-                        y2="14"
-                        stroke="#222"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  )}
-                </span>
+                  <span className="faq-toggle-icon">
+                    {openIndex === idx ? (
+                      <svg width="18" height="18" viewBox="0 0 18 18">
+                        <line
+                          x1="4"
+                          y1="9"
+                          x2="14"
+                          y2="9"
+                          stroke="#222"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                        />
+                      </svg>
+                    ) : (
+                      <svg width="18" height="18" viewBox="0 0 18 18">
+                        <line
+                          x1="4"
+                          y1="9"
+                          x2="14"
+                          y2="9"
+                          stroke="#222"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                        />
+                        <line
+                          x1="9"
+                          y1="4"
+                          x2="9"
+                          y2="14"
+                          stroke="#222"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                        />
+                      </svg>
+                    )}
+                  </span>
                 </div>
               </button>
               <div
