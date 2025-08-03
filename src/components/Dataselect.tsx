@@ -248,13 +248,7 @@ const Dataselect: React.FC = () => (
     <hr />
     {/* MAKE DELIVERIES SECTION */}
     <section className="make-deliveries-section section-padding">
-      <div className="make-deliveries-left">
-       {/* <img
-          src="/kiroo-ride-app/assets/deliveries-illustration.png"
-          alt="Make Deliveries"
-          className="make-deliveries-img"
-        />*/}
-      </div>
+
       <div className="make-deliveries-right">
         <h1>
           <span className="make-yellow">Make</span> Deliveries
