@@ -178,7 +178,7 @@ const Dataselect: React.FC = () => (
     <section
       className="do-more-driver-section section-padding"
       style={{
-        backgroundImage: 'url("/kiroo-ride-app/assets/do-more-driver.png")',
+        backgroundImage: 'url("/kiroo-ride-app/assets/f7-bg.png")',
       }}
     >
       <div className="do-more-driver-overlay">
@@ -239,7 +239,7 @@ const Dataselect: React.FC = () => (
       </div>
       <div className="insurance-right">
         <img
-          src="/kiroo-ride-app/assets/insurance-car.jpg"
+          src="/kiroo-ride-app/assets/insurance-car.png"
           alt="Insurance"
           className="insurance-img"
         />

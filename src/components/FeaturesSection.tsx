@@ -30,7 +30,7 @@ const FeaturesSection: React.FC = () => (
           driver’s location in real time no surprises, just smooth movement.
         </p>
         <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/big-second.png')" }}
+          style={{ backgroundImage: "url('/kiroo-ride-app/assets/f2-img.png')" }}
           className="feature-img big-feature-img"
         ></div>
       </div>
@@ -42,7 +42,7 @@ const FeaturesSection: React.FC = () => (
           police alert services with kiroo smart security personnel if needed.
         </p>
         <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/big-second.png')" }}
+          style={{ backgroundImage: "url('/kiroo-ride-app/assets/f2-img2.png')" }}
           className="feature-img big-feature-img"
         ></div>
       </div>

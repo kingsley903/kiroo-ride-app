@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { ChevronDown } from "lucide-react";
 
 const images = [
   `${import.meta.env.BASE_URL}assets/ride-bg1.png`,
@@ -21,7 +22,7 @@ const Herosection: React.FC = () => {
   }, [current]);
 
   return (
-    <section className="hero-section">
+    <section className="new-hero-section">
       <div className="hero-bg">
         {images.map((img, idx) => (
           <img
@@ -32,45 +33,56 @@ const Herosection: React.FC = () => {
           />
         ))}
         <div className="hero-overlay">
-          <div className="hero-content">
-            <h1 className="hero-caption">
-              <span className="kiroo-yellow">KIROO</span>{" "}
-              <span className="ride-white">RIDE</span>
-              <br />
-            </h1>
-            <h2>
-              <span className="hero-sub">RIDE WITH CONFIDENCE</span>
-            </h2>
-            <h2 className="hero-mood">Ride your mood</h2>
-            <form className="hero-form">
-              <div className="pickup-warpper-content">
-              <div className="pickup-wrapper">
-                <div className="black-dot"></div>
-                <input
-                  type="text"
-                  placeholder="Pickup location"
-                  className="pickup-input"
-                />
-                <select className="ride-select">
-                  <option>Personal Ride</option>
-                  <option>Delivery</option>
-                  <option>For Someone</option>
-                  <option>Schedule</option>
-                </select>
+          <div className="hero-main-content">
+            <div className="hero-brand-section">
+              <h1 className="hero-brand-title">
+                <span className="kiroo-brand-yellow">KIROO </span>
+                <span className="kiroo-brand-white">RIDE</span>
+              </h1>
+              <div className="confidence-badge">
+                <span className="confidence-text">RIDE WITH CONFIDENCE</span>
               </div>
-                <div className="black-line"></div>
-              <div className="pickup-wrapper">
-                <div className="black-dot"></div>
-                <input
-                  type="text"
-                  placeholder="Dropoff location"
-                  className="dropoff-input"
-                />
-              </div>
-              </div>
+            </div>
 
-              <button className="find-btn">Find Rides</button>
-            </form>
+            <div className="ride-booking-section">
+              <h2 className="ride-mood-title">Ride your mood</h2>
+
+              <form className="booking-form">
+                <div className="location-inputs-container">
+                  <div className="location-input-group">
+                   <div className="location-dot-square"></div>
+                    <input
+                      type="text"
+                      placeholder="Pickup location"
+                      className="location-input"
+                    />
+                    <div className="ride-type-selector">
+                      <select className="ride-type-text">
+                      <option>Personal Ride</option>
+                      <option>Personal Ride</option><option>Personal Ride</option><option>Personal Ride</option><option>Personal Ride</option><option>Personal Ride</option>
+
+                      </select>
+                   
+                    </div>
+                  </div>
+
+                  <div className="connection-line"></div>
+
+                  <div className="location-input-group">
+                    <div className="location-dot-square"></div>
+                    <input
+                      type="text"
+                      placeholder="Dropoff location"
+                      className="location-input"
+                    />
+                  </div>
+                </div>
+
+                <button type="submit" className="find-rides-btn">
+                  <span>Find Rides</span>
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>

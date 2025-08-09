@@ -5,13 +5,9 @@ const Footer: React.FC = () => (
   <footer className="footer-section">
     <div className="footer-container">
       <div className="footer-col">
-        <h4>Company</h4>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
+
+<img src="/kiroo-ride-app/assets/footer-img.png" alt="Small Feature" width="70%" />
+
       </div>
       <div className="footer-col">
         <h4>Community</h4>
