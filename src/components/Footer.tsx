@@ -2,7 +2,7 @@ import React from "react";
 import { Instagram, Twitter, Facebook, Linkedin } from "lucide-react";
 
 const Footer: React.FC = () => (
-  <footer className="footer-section">
+  <footer className="footer-section section-padding">
     <div className="footer-container">
       <div className="footer-col">
 
@@ -25,7 +25,7 @@ const Footer: React.FC = () => (
           <li><a href="#">Features</a></li>
           <li><a href="#">Fees</a></li>
           <li><a href="#">Benefits</a></li>
-          <li><a href="#" className="footer-more">See More &gt;</a></li>
+          
         </ul>
       </div>
       <div className="footer-col">
@@ -46,6 +46,8 @@ const Footer: React.FC = () => (
         </ul>
       </div>
     </div>
+
+    <h1 className="see-more"><a href="#" className="footer-more">See More &gt;</a></h1>
   </footer>
 );
 
