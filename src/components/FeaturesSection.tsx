@@ -30,7 +30,9 @@ const FeaturesSection: React.FC = () => (
           driver’s location in real time no surprises, just smooth movement.
         </p>
         <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/f2-img.png')" }}
+          style={{
+            backgroundImage: "url('/kiroo-ride-app/assets/f2-img.png')",
+          }}
           className="feature-img big-feature-img"
         ></div>
       </div>
@@ -42,7 +44,9 @@ const FeaturesSection: React.FC = () => (
           police alert services with kiroo smart security personnel if needed.
         </p>
         <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/f2-img2.png')" }}
+          style={{
+            backgroundImage: "url('/kiroo-ride-app/assets/f2-img2.png')",
+          }}
           className="feature-img big-feature-img"
         ></div>
       </div>
@@ -54,12 +58,15 @@ const FeaturesSection: React.FC = () => (
           market, there’s a ride just for you.
         </p>
         <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/small-first.png')" }}
+          style={{
+            backgroundImage: "url('/kiroo-ride-app/assets/small-first.png')",
+          }}
           className="feature-img small-feature-img"
         >
-
-<img src="/kiroo-ride-app/assets/small-first-in.png" alt="Small Feature" />
-
+          <img
+            src="/kiroo-ride-app/assets/small-first-in.png"
+            alt="Small Feature"
+          />
         </div>
       </div>
       <div className="feature-card small-feature-card">
@@ -69,8 +76,10 @@ const FeaturesSection: React.FC = () => (
           scan-to-pay. Fast, secure, and 100% cash-free: your wallet stays in
           your pocket!
         </p>
-       <div
-          style={{ backgroundImage: "url('/kiroo-ride-app/assets/small-second.jpg')" }}
+        <div
+          style={{
+            backgroundImage: "url('/kiroo-ride-app/assets/small-second.jpg')",
+          }}
           className="feature-img small-feature-img"
         ></div>
       </div>

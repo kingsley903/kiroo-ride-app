@@ -1269,14 +1269,17 @@ body {
 
 /* Do More With Kiroo Section */
 .do-more-section {
-  background: #ffcc00;
+  background-image: url("/kiroo-ride-app/assets/yellow-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 2.5rem;
   max-width: 100vw;
   margin: 0 auto;
   flex-wrap: wrap;
+  height: 100vh;
 }
 
 .do-more-right {
@@ -1286,14 +1289,7 @@ body {
   position: relative;
 }
 
-.do-more-img {
-  background-image: url("/kiroo-ride-app/assets/do-more.png");
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
+
 
 .do-more-left {
   flex: 1.2;
@@ -1367,6 +1363,19 @@ body {
   .do-more-left {
     max-width: 100vw;
   }
+
+  .do-more-section {
+    background-position: right;
+  }
+
+.do-more-title, .do-more-title span, .do-more-sub{
+  color: var(--white-color);
+}
+
+.getting-started-title, .getting-started-desc{
+  text-align: left;
+}
+
 }
 @media (max-width: 500px) {
   .enjoy-life-img,

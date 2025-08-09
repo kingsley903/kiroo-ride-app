@@ -1,39 +1,43 @@
-import React, { useState } from 'react'
-import { Menu, X } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 //import Logo from '/kiroo-ride-app/assets/ride-logo.png'
-const Logo = '/kiroo-ride-app/assets/ride-logo.png'
+const Logo = "/kiroo-ride-app/assets/ride-logo.png";
 // Define your navigation links
 const menuItems = [
-  { name: 'Home', path: '/' },
-  { name: 'About Us', path: '/about' },
-  { name: 'Contact', path: '/contact' },
-]
+  { name: "Home", path: "/" },
+  { name: "About Us", path: "/about" },
+  { name: "Contact", path: "/contact" },
+];
 
 const Navbar: React.FC = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
-  const [active, setActive] = useState('Home')
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [active, setActive] = useState("Home");
 
   const handleMenuClick = (name: string) => {
-    setActive(name)
-    setMenuOpen(false)
-  }
+    setActive(name);
+    setMenuOpen(false);
+  };
 
   return (
     <header className="navbar-header">
       <div className="navbar-container">
         {/* Logo */}
-        <Link to="/" className="navbar-logo" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+        <Link
+          to="/"
+          className="navbar-logo"
+          style={{ display: "flex", alignItems: "center", gap: 8 }}
+        >
           <img src={Logo} alt="Logo" style={{ height: 32 }} />
         </Link>
 
         {/* Desktop Menu */}
-        <nav className={`navbar-nav ${menuOpen ? 'open' : ''}`}>
+        <nav className={`navbar-nav ${menuOpen ? "open" : ""}`}>
           {menuItems.map((item) => (
             <Link
               key={item.name}
               to={item.path}
-              className={`navbar-link${active === item.name ? ' active' : ''}`}
+              className={`navbar-link${active === item.name ? " active" : ""}`}
               onClick={() => handleMenuClick(item.name)}
             >
               {item.name}
@@ -42,9 +46,10 @@ const Navbar: React.FC = () => {
         </nav>
 
         {/* Signup Button */}
-        
-          <Link to="/signup" className="navbar-signup-btn">Download App</Link>
-      
+
+        <Link to="/signup" className="navbar-signup-btn">
+          Download App
+        </Link>
 
         {/* Hamburger Menu */}
         <button
@@ -56,7 +61,7 @@ const Navbar: React.FC = () => {
         </button>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

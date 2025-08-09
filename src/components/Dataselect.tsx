@@ -128,16 +128,11 @@ const Dataselect: React.FC = () => (
           <span>KIROO!</span>
         </h1>
         <p className="do-more-sub">Share a ride</p>
-        <a
-          href="#"
-          className="enjoy-life-btn"
->
+        <a href="#" className="enjoy-life-btn">
           Download App
         </a>
       </div>
-      <div className="do-more-right">
-        <div className="do-more-img"></div>
-      </div>
+
     </section>
 
     {/* USSD Section */}
@@ -248,7 +243,6 @@ const Dataselect: React.FC = () => (
     <hr />
     {/* MAKE DELIVERIES SECTION */}
     <section className="make-deliveries-section section-padding">
-
       <div className="make-deliveries-right">
         <h1>
           <span className="make-yellow">Make</span> Deliveries
