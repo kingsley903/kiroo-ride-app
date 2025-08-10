@@ -7,7 +7,7 @@ const Dataselect: React.FC = () => (
       <div className="enjoy-life-left">
         <h1 className="enjoy-life-title">
           Enjoy Life with <br />
-          <span>KIROO!</span>
+          <span style={{fontSize: "var(--kiroo-big)"}}>KIROO!</span>
         </h1>
         <h3 className="enjoy-life-sub">Every mother deserves a safe journey</h3>
         <p className="enjoy-life-desc">
@@ -51,11 +51,11 @@ const Dataselect: React.FC = () => (
         </a>
       </div>
       <div className="enjoy-life-right">
-        <img
+       {/* <img
           src="/kiroo-ride-app/assets/belle.png"
           alt="Enjoy Life with Kiroo"
           className="enjoy-life-img"
-        />
+        />*/}
       </div>
     </section>
 
@@ -125,7 +125,7 @@ const Dataselect: React.FC = () => (
       <div className="do-more-left">
         <h1 className="do-more-title">
           DO More With <br />
-          <span>KIROO!</span>
+          <span style={{fontSize: "var(--kiroo-big)"}}>KIROO!</span>
         </h1>
         <p className="do-more-sub">Share a ride</p>
         <a href="#" className="enjoy-life-btn">
@@ -180,7 +180,7 @@ const Dataselect: React.FC = () => (
         <h1>
           <span className="do-more-yellow">DO More With</span>
           <br />
-          <span className="do-more-white">KIROO!</span>
+          <span className="do-more-white" style={{fontSize: "var(--kiroo-big)"}}>KIROO!</span>
         </h1>
         <p className="do-more-driver-desc">
           Make the most of your time on the road on the platform with the

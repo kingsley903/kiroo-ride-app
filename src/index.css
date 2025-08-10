@@ -12,6 +12,9 @@
   --text-color: #333;
   --dark: #000;
   --light: #f0f0f0;
+  --kiroo-big: 95px;
+  --sub-kiroo-title: 59px;
+  --sub-kiroo-title-weight: 800;
 }
 
 h1,
@@ -403,11 +406,12 @@ body {
 }
 
 .ride-type-text {
-  font-family: 'Sora', -apple-system, 'Roboto', 'Helvetica', sans-serif;
-  font-size: 0.625rem;
-  font-weight: 700;
-  color: #D8D8D8;
-  background-color: #ffffff00;
+    font-family: 'Sora', -apple-system, 'Roboto', 'Helvetica', sans-serif;
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: #D8D8D8;
+    background-color: #1d0c01;
+    border: navajowhite;
 }
 
 .dropdown-icon {
@@ -416,13 +420,13 @@ body {
 }
 
 .connection-line {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 41px;
-  height: 2px;
-  background: #000;
-  z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 3px;
+    background: #000;
+    z-index: 1;
 }
 
 
@@ -550,7 +554,6 @@ body {
 
 /* --- Features Section Classes --- */
 .features-section {
-  max-width: 1200px;
   margin: 0 auto;
   background: var(--white-color);
 }
@@ -565,8 +568,6 @@ body {
 }
 
 .features-title {
-  font-size: 2.7rem;
-  font-weight: 800;
   color: var(--black-color);
   line-height: 1.1;
   margin-bottom: 0;
@@ -649,15 +650,17 @@ body {
 }
 
 .feature-card-cta {
-  background: linear-gradient(135deg, #ffd600 70%, #ffb800 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100%;
-  text-align: center;
-  grid-column: 3;
-  grid-row: 2;
-  padding: 20px;
+    background-image: url("/kiroo-ride-app/assets/f2-small-bg.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    min-height: 100%;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 2;
+    padding: 29px;
+    align-content: space-between;
+    justify-content: center;
 }
 
 .feature-card-cta h3 {
@@ -1112,17 +1115,18 @@ body {
 }
 
 .enjoy-life-btn {
-  display: inline-block;
-  background: var(--text-color);
-  color: var(--yellow-color);
-  font-weight: 700;
-  border: none;
-  border-radius: 10px;
-  padding: 0.8rem 2.2rem;
-  font-size: 1rem;
-  text-decoration: none;
-  margin-top: 0.7rem;
-  transition: background 0.2s, color 0.2s;
+    display: inline-block;
+    background: var(--text-color);
+    color: var(--white-color);
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 2.2rem;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 0.7rem;
+    transition: background 0.2s, color 0.2s;
+
 }
 
 .enjoy-life-btn:hover {
@@ -1132,13 +1136,12 @@ body {
 }
 
 .enjoy-life-right {
-  max-width: 48%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--white-color);
-  border-radius: 40%;
-  padding-top: 10px;
+  width: 490px;
+  height: 694px;
+  background-image:url("/kiroo-ride-app/assets/belle.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .enjoy-life-img {

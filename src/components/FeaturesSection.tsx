@@ -4,7 +4,7 @@ const FeaturesSection: React.FC = () => (
   <section className="features-section section-padding">
     <div className="features-header-row">
       <div>
-        <h1 className="features-title">
+        <h1 className="features-title" style={{fontSize: "var(--sub-kiroo-title)", fontWeight: "var(--sub-kiroo-title-weight)"}}>
           Ride Hailing like
           <br />
           never before.
@@ -31,7 +31,7 @@ const FeaturesSection: React.FC = () => (
         </p>
         <div
           style={{
-            backgroundImage: "url('/kiroo-ride-app/assets/f2-img.png')",
+            backgroundImage: "url('/kiroo-ride-app/assets/f2-img2.png')",
           }}
           className="feature-img big-feature-img"
         ></div>
@@ -45,7 +45,7 @@ const FeaturesSection: React.FC = () => (
         </p>
         <div
           style={{
-            backgroundImage: "url('/kiroo-ride-app/assets/f2-img2.png')",
+            backgroundImage: "url('/kiroo-ride-app/assets/f2-img.png')",
           }}
           className="feature-img big-feature-img"
         ></div>
@@ -59,14 +59,14 @@ const FeaturesSection: React.FC = () => (
         </p>
         <div
           style={{
-            backgroundImage: "url('/kiroo-ride-app/assets/small-first.png')",
+            backgroundImage: "url('/kiroo-ride-app/assets/f2-img3.png')",
           }}
           className="feature-img small-feature-img"
         >
-          <img
+         {/* <img
             src="/kiroo-ride-app/assets/small-first-in.png"
             alt="Small Feature"
-          />
+          />*/}
         </div>
       </div>
       <div className="feature-card small-feature-card">
@@ -86,7 +86,7 @@ const FeaturesSection: React.FC = () => (
       <div className="feature-card feature-card-cta col-lg-4">
         <div>
           <h3>Explore Other Features of Our Products.</h3>
-          <a href="#" className="enjoy-life-btn">
+          <a href="#" className="enjoy-life-btn" style={{ width: "100%" }}>
             <span style={{ color: "#fff" }}>Download</span> Now!
           </a>
         </div>
