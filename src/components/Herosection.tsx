@@ -50,7 +50,7 @@ const Herosection: React.FC = () => {
               <form className="booking-form">
                 <div className="location-inputs-container">
                   <div className="location-input-group">
-                    <div className="location-dot-square"></div>
+                    <div className="location-dot"></div>
                     <input
                       type="text"
                       placeholder="Pickup location"
@@ -71,7 +71,7 @@ const Herosection: React.FC = () => {
                   <div className="connection-line"></div>
 
                   <div className="location-input-group">
-                    <div className="location-dot"></div>
+                    <div className="location-dot-square"></div>
                     <input
                       type="text"
                       placeholder="Dropoff location"

@@ -160,11 +160,17 @@ const Dataselect: React.FC = () => (
           unreliable network.
         </p>
         <div>
-          <h1 className="ussd-dial">
+        <img
+          src="/kiroo-ride-app/assets/dial.png"
+          alt="*801#" width='100%' />
+
+
+          {/*<h1 className="ussd-dial">
             Dial
             <br />
             <span className="ussd-dial-code">*801#</span>
-          </h1>
+          </h1>*/}
+
         </div>
       </div>
     </section>
@@ -240,7 +246,9 @@ const Dataselect: React.FC = () => (
         />
       </div>
     </section>
-    <hr />
+    <hr style={{
+    marginTop: "38px"}}
+ />
     {/* MAKE DELIVERIES SECTION */}
     <section className="make-deliveries-section section-padding">
       <div className="make-deliveries-right">
